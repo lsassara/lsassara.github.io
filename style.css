@@ -1,0 +1,119 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  justify-content: left;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  top: 0;
+  height: auto;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-image: url('img/header.png');
+  background-size: cover;
+}
+
+header > div {
+  padding: 5%;
+  text-align: left;
+}
+header h1{
+  line-height: 1;
+  font-size: 25px;
+  font-weight: bolder;
+  background-color: darkgray;
+  padding: 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+header h2{
+  line-height: 0.5;
+  font-size: 15px;
+  color: darkgray;
+  font-weight: lighter;
+}
+
+button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+#linkedin{
+  display: flow-root;
+  margin-top: 10px;
+  margin-left: 10px;
+ }
+
+#linkedin a img{
+  background-color: azure;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 200px;
+  padding: 10px;
+  background-image: url('img/main.png');
+  background-size: cover;
+  width: 100%;
+}
+
+main h2{
+  line-height: 1;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: darkgray;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+main h3{
+  line-height: 1;
+  font-size: 15px;
+  font-weight: bolder;
+  background-color: lightgray;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section1 > div {
+  padding: 10px;
+  text-align: left;
+}
+
+
+.section2 {
+  padding: 10px;
+  text-align: left;
+}
+
+#photo_cv {
+  border-radius: 25%;
+  border: solid 5px darkgrey;
+  display: block;
+  margin: left;
+}
+
+footer{
+  background-color: lightgrey;
+  line-height: 0.5;
+  font-size: 12px;
+  text-align: center;
+  display: flex; 
+  justify-content: center;
+}
